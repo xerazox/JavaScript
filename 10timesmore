@@ -30,9 +30,7 @@ function repeatMe(){
 <p> Output:</p>
 
 <div id="result"> </div>
-<script>
-document.write(makeLines(10, "eeee"))
-</script>
+
 </body>
 
 </html>

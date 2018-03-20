@@ -10,7 +10,15 @@ function repeatMe(){
   document.getElementById('result').innerHTML =val;
 }
 </script>
-
+<script>
+  function makeLines(times, text){
+    var result = "inputField";
+    for (var i=0; i<times;i++){
+      result += text+"<br/>";
+    }
+    return result;
+  }
+</script>
 <body>
 
 <h1>10 tImEs mOrE</h1>
