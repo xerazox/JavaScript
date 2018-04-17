@@ -5,13 +5,13 @@
 <script>
 function repeatMe(){
   // Gets the value of the text field:
-  var val = document.getElementById("inputField").value;
+  var val = document.getElementById ("inputField").value;
   // Writes the comment in the div with id "result":
   document.getElementById('result').innerHTML =makeLines (10,val);
 }
 
   function makeLines(times, text){
-    var result = "inputField";
+    var result ="";
     for (var i=0; i<times;i++){
       result += text+"<br/>";
     }
