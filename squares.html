@@ -27,11 +27,13 @@ function makeSquare(size, color){
 	squares accordingly. Calls the makeSquare function when needed.
 */
 function addSquares(){
-	  var val = document.getElementById ("inputNumber").value;
-		  var val = document.getElementById ("inputColor").value;
-			  var val = document.getElementById ("inputSize").value;
+	  var val1 = document.getElementById ("inputNumber").value;
+		  var val2 = document.getElementById ("inputColor").value;
+			  var val3 = document.getElementById ("inputSize").value;
+makeSquare(val3, val2, val1);
 	// Your task is to make this work...
 }
+
 
 </script>
 </head>
@@ -45,5 +47,4 @@ function addSquares(){
 	<p>Size of squares (px):<input type="text" id="inputSize"></p>
 	<button onclick="addSquares()">Add squares!</button>
 
-</body>
 </html>
