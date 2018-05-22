@@ -8,7 +8,7 @@
 	Creates a square with the features given as parameters
 	and appends it to the body element.
 */
-function makeSquare(size, color){
+function makeSquare(size, color, number){
 
 	// Creates a new div element:
 	var div = document.createElement("div");
@@ -30,7 +30,11 @@ function addSquares(){
 	  var val1 = document.getElementById ("inputNumber").value;
 		  var val2 = document.getElementById ("inputColor").value;
 			  var val3 = document.getElementById ("inputSize").value;
+
+				  for (var i=0; i<val1;i++){
+
 makeSquare(val3, val2, val1);
+  }
 	// Your task is to make this work...
 }
 
